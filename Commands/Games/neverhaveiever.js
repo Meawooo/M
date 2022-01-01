@@ -7,9 +7,9 @@ module.exports = {
 		await NeverHaveIEver({
 			message: message,
 			embed: {
-				title: 'Never Have I Ever | Weky Development',
+				title: 'Never Have I Ever | CLOMEL Development',
 				color: '#5865F2',
-				footer: 'Reaper Games',
+				footer: 'CLOMEL Games',
 				timestamp: true
 			},
 			thinkMessage: 'I am thinking',
