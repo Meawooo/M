@@ -9,7 +9,7 @@ const readdir = promisify(require("fs").readdir);
 
 module.exports = {
   name: "stats",
-  descriptiom: "Get Inifnity's Stats",
+  descriptiom: "Get CLOMEL'S Stats",
   botPerms: ["EMBED_LINKS"],
   run: async (client, message, args, level) => {
     // eslint-disable-line no-unused-vars
@@ -26,7 +26,7 @@ module.exports = {
         let bicon = client.user.displayAvatarURL;
         const RynEmb = new Discord.MessageEmbed()
           .setAuthor(client.user.username, client.user.displayAvatarURL)
-          .setDescription("Infinity Bot's Stats:")
+          .setDescription("CLOMEL Bot's Stats:")
           .setTimestamp()
           .setThumbnail(bicon)
           .setColor("RANDOM")
