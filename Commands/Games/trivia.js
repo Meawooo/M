@@ -7,10 +7,10 @@ module.exports = {
 		await Trivia({
 			message: message,
 			embed: {
-				title: 'Trivia | Weky Development',
+				title: 'Trivia | CLOMEL Development',
 				description: 'You only have **{{time}}** to guess the answer!',
 				color: '#5865F2',
-				footer: 'Reaper Games',
+				footer: 'CLOMEL Games',
 				timestamp: true
 			},
 			difficulty: 'hard',
