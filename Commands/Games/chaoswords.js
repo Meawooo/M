@@ -9,14 +9,14 @@ module.exports = {
 		await ChaosWords({
 			message: message,
 			embed: {
-				title: 'ChaosWords | Weky Development',
+				title: 'ChaosWords | CLOMEL Development',
 				description: 'You have **{{time}}** to find the hidden words in the below sentence.',
 				color: '#5865F2',
 				field1: 'Sentence:',
 				field2: 'Words Found/Remaining Words:',
 				field3: 'Words found:',
 				field4: 'Words:',
-				footer: 'Reaper Games',
+				footer: 'CLOMEL Games',
 				timestamp: true
 			},
 			winMessage: 'GG, You won! You made it in **{{time}}**.',
