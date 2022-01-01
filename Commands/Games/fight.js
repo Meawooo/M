@@ -12,9 +12,9 @@ module.exports = {
 			message: message,
 			opponent: message.mentions.users.first(),
 			embed: {
-				title: 'Fight | Weky Development',
+				title: 'Fight | CLOMEL Development',
 				color: '#5865F2',
-				footer: 'Reaper Games',
+				footer: 'CLOMEL Games',
 				timestamp: true
 			},
 			buttons: {
