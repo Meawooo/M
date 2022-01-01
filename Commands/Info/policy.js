@@ -7,7 +7,7 @@ module.exports = {
   run: async (client, message, args) => {
     const icon = client.user.avatarURL;
     const embed = new Discord.MessageEmbed()
-      .setTitle("INFINITY BOT PRIVACY POLICY")
+      .setTitle("CLOMEL BOT PRIVACY POLICY")
       .setThumbnail(icon)
       .setDescription("By using the bot you agree to our privacy policy")
       .addField(
@@ -38,7 +38,7 @@ module.exports = {
       .addField(
         "**GOT CONCERNS OR QUERIES?**",
         `
-    If you have any concerns or queries relating our privacy policy or our bot or if you want your data to be removed, You can contact [๖ۣۜℜⱥjͥƤuͣtͫ#0001](https://discord.com/users/661501985517862972) directy on our [Support Server](https://discord.gg/mqWprFc)!`
+    If you have any concerns or queries relating our privacy policy or our bot or if you want your data to be removed, You can contact [araan_sheikh#4416](https://discord.com/users/875768640320962650) directy on our [Support Server](https://dsc.gg/clomel)!`
       )
       .setThumbnail(client.user.avatarURL())
       .setFooter(`Requested by: ${message.author.username}`)
