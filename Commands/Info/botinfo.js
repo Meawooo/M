@@ -20,24 +20,24 @@ module.exports = {
       .format(" D [days], H [hrs], m [mins], s [secs]");
 
     let embed = new Discord.MessageEmbed()
-      .setAuthor("REAPER-,2.0's Info", client.user.avatarURL())
+      .setAuthor("CLOMEL'S Info", client.user.avatarURL())
       .setColor("RANDOM")
       .setDescription(
-        `**Bot Name: **Reaper \n**Owner: **[YOUR_NAME_HERE] \n**Total Categories: **8 \n**Total Commands: **${client.commands.size} \n**Users:** ${
+        `**Bot Name: **CLOMEL \n**Owner: **ARAAN SHEIKH \n**Total Categories: **8 \n**Total Commands: **${client.commands.size} \n**Users:** ${
           client.users.cache.size
         } \n**Servers:** ${client.guilds.cache.size} \n**Channels:** ${
           client.channels.cache.size
         }`
       )
       .addField(
-        "About Reaper-2.0",
-        "Reaper-2.0 is an open-source multi-purpose discord bot with features like moderation, music, logging, welcomer and so much more!\nYou can find the link to the [GitHub Repo Here](https://github.com/Simpleboy353/REAPER-2.0)"
+        "About CLOMEL",
+        "CLOMEL is an multi-purpose discord bot with features like moderation, music, logging, welcomer and so much more!"
       )
       .addField(
         "Some Useful Links",
-        "**Get your own bot!** **[Here](https://github.com/Simpleboy353/REAPER-2.0)** \n**Need Help? Join our ** **[Support/Development Server](https://infinitybot.tk/support)** **for assistance**"
+        "**Need Help? Join our ** **[Support/Development Server](https://dsc.gg/clomel)** **for assistance**"
       )
-      .setFooter("Regards, Reaper-2.0 Development Team");
+      .setFooter("Regards, CLOMEL Development Team");
     message.channel.send({ embeds: [embed] });
   },
 };
