@@ -7,7 +7,7 @@ module.exports = {
 		await ShuffleGuess({
 			message: message,
 			embed: {
-				title: 'Shuffle Guess | Weky Development',
+				title: 'Shuffle Guess | CLOMEL Development',
 				color: '#5865F2',
 				footer: 'Reaper Games',
 				timestamp: true
