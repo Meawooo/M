@@ -2,7 +2,7 @@ const Discord = module.require("discord.js");
 
 module.exports = {
   name: "suggest",
-  description: "Suggest Features for Infinity",
+  description: "Suggest Features for CLOMEL",
   botPerms: ["EMBED_LINKS"],
   run: async (client, message, args) => {
     const avatar = message.author.avatarURL;
@@ -12,7 +12,7 @@ module.exports = {
       return message.channel.send("Please Suggest Something");
     }
     message.channel.send(
-      "Thanks for Suggesting Features for Infinity. Our Mod team will inform you if your Suggestion is accepted or not!"
+      "Thanks for Suggesting Features for CLOMEL. Our Mod team will inform you if your Suggestion is accepted or not!"
     );
     const embed = new Discord.MessageEmbed()
       .setAuthor(`New Suggestion!`, avatar)
