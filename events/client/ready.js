@@ -8,7 +8,7 @@ module.exports = (client) => {
   const guildmember = client.users.cache.size;
   
  client.user.setPresence({ status: "online" });
-let textList = [' About handling command',' in: ' + guildin + ' Server.' + 'Serving: ' + guildmember + ' member',`Current Cpu core : ${os.cpuCount()}`]
+let textList = [' About handling command',' in: '  + guildmember + ' member',`Current Cpu core : ${os.cpuCount()}`]
  client.user.setPresence({ status: "online" });
  setInterval(() => {
    var text = textList[Math.floor(Math.random() * textList.length)];
