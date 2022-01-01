@@ -7,9 +7,9 @@ module.exports = {
 		await QuickClick({
 			message: message,
 			embed: {
-				title: 'Quick Click | Weky Development',
+				title: 'Quick Click | CLOMEL Development',
 				color: '#5865F2',
-				footer: 'Reaper Games',
+				footer: 'CLOMEL Games',
 				timestamp: true
 			},
 			time: 60000,
