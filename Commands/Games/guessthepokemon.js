@@ -7,7 +7,7 @@ module.exports = {
 		await GuessThePokemon({
 			message: message,
 			embed: {
-				title: 'Guess The Pokémon | Weky Development',
+				title: 'Guess The Pokémon | CLOMEL Development',
 				description:
 					'**Type:**\n{{type}}\n\n**Abilities:**\n{{abilities}}\n\nYou only have **{{time}}** to guess the pokémon.',
 				color: '#5865F2',
