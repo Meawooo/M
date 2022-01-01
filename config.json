@@ -1,9 +1,9 @@
 {
 
-    "OWNER_ID":"",
+    "OWNER_ID":"875768640320962650",
     "BOT_TOKEN": "",
-    "tenorAPI":"ZEEELJXAFQBN",
-    "DEFAULT_PREFIX":"!",
+    "tenorAPI":"PG9REEYP7EGW",
+    "DEFAULT_PREFIX":"c!",
     "mongoPass": "",
     "ERROR_LOGS_CHANNEL": "",
     "ALEXFLIPNOTE_API_KEY":"",
