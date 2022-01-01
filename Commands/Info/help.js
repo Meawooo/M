@@ -28,7 +28,7 @@ module.exports = {
         .addField("Description", `${description}`, true)
         .addField("Aliases", `${aliases}`, true)
         .addField("Owner Only", `${ownerOnly}`, true)
-        .addField("NSFW Only", `${nsfwOnly}`, true)
+        .addField("NSFW Only", `${nsfwOnly}`, false)
         .addField("Cooldown", `${cooldown}`, true)
         .addField("Disabled", `${isDisabled}`, true)
         .addField("Required Bot Permissions", `${botPerms}`, true)
