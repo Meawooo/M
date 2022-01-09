@@ -35,7 +35,6 @@ module.exports = {
         .addField("Description", `${description}`, true)
         .addField("Aliases", `${aliases}`, true)
         .addField("Owner Only", `${ownerOnly}`, true)
-        .addField("NSFW Only", `${nsfwOnly}`, true)
         .addField("Cooldown", `${cooldown}`, true)
         .addField("Disabled", `${isDisabled}`, true)
         .addField("Required Bot Permissions", `${botPerms}`, true)
@@ -95,12 +94,6 @@ module.exports = {
           description: "Shows all the Music commands!",
           value: "music",
           emoji: "🎵"
-        },
-        {
-          label: "NSFW",
-          description: "Shows all the NSFW commands",
-          value: "nsfw",
-          emoji: "🔞"
         },
         {
           label: "Utility",
