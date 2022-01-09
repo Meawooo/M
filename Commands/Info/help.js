@@ -108,6 +108,7 @@ module.exports = {
     .setTitle('Help Menu')
     .setDescription('Choose an option from the menu below!')
     .setColor("GREEN")
+    .setImage("https://media.discordapp.net/attachments/876034748391260170/929072794090766396/kr3YPyaXT10P9xPu.gif")
 
       message.channel.send({ embeds: [editEmbed], components: [helpMenu]}).then(msg=>{
         setTimeout(async function () {
