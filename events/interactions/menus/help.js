@@ -15,7 +15,8 @@ module.exports = async(interaction, client) => {
         .setDescription(
           "`autorole`, `antilink`, `joinchannel`, `joinmessage`, `leavechannel`, `leavemessage` `prefix`"
         )
-        .setColor("RANDOM");
+        .setColor("RANDOM")
+        .setImage("https://media.discordapp.net/attachments/876034748391260170/929072794090766396/kr3YPyaXT10P9xPu.gif");
 
       await msg.edit({ embeds: [settingsEmbed] });
 
@@ -27,7 +28,8 @@ module.exports = async(interaction, client) => {
         .setDescription(
           "`8ball`, `ascii`, `clap`, `clyde`, `cowsay`, `dab`, `emojify`, `fliptext`, `greentext`, `hack`, `howgay`, `hug`, `joke`, `kill`, `orangetext`, `pokeimg`, `pp`, `respect`, `reverse`, `roast`, `slap`, `trivia`, `urban`, `vaportext`, `yomama`"
         )
-        .setColor("RANDOM");
+        .setColor("RANDOM")
+        .setImage("https://media.discordapp.net/attachments/876034748391260170/929072794090766396/kr3YPyaXT10P9xPu.gif");
 
         await msg.edit({ embeds: [funEmbed] });
 
@@ -37,6 +39,7 @@ module.exports = async(interaction, client) => {
 
             const imageEmbed = new Discord.MessageEmbed()
             .setColor("RANDOM")
+            .setImage("https://media.discordapp.net/attachments/876034748391260170/929072794090766396/kr3YPyaXT10P9xPu.gif")
             .setTitle("Image Commands")
             .setDescription(
               "`achievement`, `amazeme`, `amiajoke`, `bad`, `challenge`, `changemymind`, `creatememe`, `drake`, `facts`, `illegal`, `phb`, `rip`, `scroll`, `textimage`, `trash`, `trigger`, `trumptweet`, `wasted`, `wideavatar`"
@@ -50,7 +53,8 @@ module.exports = async(interaction, client) => {
  
          const musicEmbed = new Discord.MessageEmbed()
          .setTitle(`Music Commands`)
-         .setDescription("`clearqueue`, `filter`, `filter list`, `info`, `jump`, `loop`, `lyrics`, `move`, `mute`, `pause`, `play`, `previoustrack`, `queue`, `remove`, `resume`, `unmute`, `volume`, `youtube`\n\n```Note: Music commands work only with slash commands!```")
+         .setImage("https://media.discordapp.net/attachments/876034748391260170/929072794090766396/kr3YPyaXT10P9xPu.gif")
+         .setDescription("`clearqueue`, `filter`, `filter list`, `info`, `jump`, `loop`, `lyrics`, `move`, `mute`, `pause`, `play`, `previoustrack`, `queue`, `remove`, `resume`, `unmute`, `volume`, `youtube`\n\n```Note: Music commands work only with slash commands!( use /track command here)```")
          .setColor("BLUE")
  
          await msg.edit({ embeds: [musicEmbed] })
@@ -62,9 +66,10 @@ module.exports = async(interaction, client) => {
             const infoEmbed = new Discord.MessageEmbed()
         .setTitle("Info Commands")
         .setDescription(
-          "`botinfo`, `devteam`, `emojiid`, `help`, `invite`, `ping`, `policy`, `report`, `userinfo`, `userid`, `serverinfo`, `suggest`"
+          "`botinfo`, `emojiid`, `help`, `invite`, `ping`, `policy`, `report`, `userinfo`, `userid`, `serverinfo`, `suggest`"
         )
-        .setColor("RANDOM");
+        .setColor("RANDOM")
+        .setImage("https://media.discordapp.net/attachments/876034748391260170/929072794090766396/kr3YPyaXT10P9xPu.gif");
 
         await msg.edit({ embeds: [infoEmbed] })
 
@@ -76,21 +81,10 @@ module.exports = async(interaction, client) => {
             .setDescription(
               "`kick`, `ban`, `softban`, `mute`, `unmute`, `tempmute`"
             )
-            .setColor("RANDOM");
+            .setColor("RANDOM")
+            .setImage("https://media.discordapp.net/attachments/876034748391260170/929072794090766396/kr3YPyaXT10P9xPu.gif");
 
             await msg.edit({ embeds: [modEmbed] })
-
-        } else if (interaction.values[0] === "nsfw") {
-            await interaction.deferUpdate()
-
-            const nsfwEmbed = new Discord.MessageEmbed()
-        .setTitle("NSFW Commands")
-        .setDescription(
-          "`4k`, `anal`, `ass`, `blowjob`, `boobs`, `cumsluts`, `erokemo`, `danbooru`, `kitsune`, `hentai`, `hentaiass`, `hentaithigh`, `gonewild`, `milf`, `feetgif`, `pussy`, `porngif`, `urban`, `thigh`, `lewd`"
-        )
-        .setColor("RANDOM");
-
-        await msg.edit({ embeds: [nsfwEmbed] })
 
         } else if (interaction.values[0] === "utility") {
             await interaction.deferUpdate()
@@ -100,7 +94,8 @@ module.exports = async(interaction, client) => {
         .setDescription(
           "`avatar`, `animesearch`, `announce`, `calculator`, `clear`, `createrole`, `delchannel`, `delrole`, `enlargemoji`, `esay`, `giverole`, `google`, `imdb`, `lock`, `newtext`, `newvoice`, `nickname`, `poll`, `removerole`, `say`, `servericon`, `serverinfo`, `suggestion`, `translate`, `unlock`, `weather`, `wiki`"
         )
-        .setColor("RANDOM");
+        .setColor("RANDOM")
+        .setImage("https://media.discordapp.net/attachments/876034748391260170/929072794090766396/kr3YPyaXT10P9xPu.gif");
 
         await msg.edit({ embeds: [utilityEmbed] })
 
@@ -112,7 +107,8 @@ module.exports = async(interaction, client) => {
         .setDescription(
           "`connect4`, `catchthefish`, `chaoswords`, `fasttype`, `fight`, `football`, `gunfight`, `guessthenumber`, `guessthepokemon`, `lieswatter`, `neverhaveiever`, `quickclick`, `rps`, `shuffleguess`, `snake`, `trivia`, `ttt`"
         )
-        .setColor("RANDOM");
+        .setColor("RANDOM")
+        .setImage("https://media.discordapp.net/attachments/876034748391260170/929072794090766396/kr3YPyaXT10P9xPu.gif");
 
         await msg.edit({ embeds: [gameEmbed] })
       } else if (interaction.values[0] === "activities") {
@@ -124,6 +120,7 @@ module.exports = async(interaction, client) => {
           "`awkword`, `betrayal`, `chess`, `doodlecrew`, `fishington`, `lettertile`, `poker`, `spellcast`, `youtube`"
         )
         .setColor("RANDOM")
+        .setImage("https://media.discordapp.net/attachments/876034748391260170/929072794090766396/kr3YPyaXT10P9xPu.gif")
 
         await msg.edit({ embeds: [activityEmbed]})
       }
